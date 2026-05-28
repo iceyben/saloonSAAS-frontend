@@ -5,7 +5,7 @@ import { ArrowRight, Star, Clock, ChevronRight } from "lucide-react";
 import axios from "axios";
 import Image from "next/image";
 
-const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
+const API = process.env.NEXT_PUBLIC_API_URL;
 const fade = { hidden: { opacity: 0, y: 24 }, show: { opacity: 1, y: 0 } };
 const stagger = { show: { transition: { staggerChildren: 0.12 } } };
 
