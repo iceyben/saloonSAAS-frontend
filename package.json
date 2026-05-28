@@ -8,6 +8,9 @@
     "start": "next start",
     "lint": "eslint"
   },
+  "engines": {
+  "node": ">=20"
+},
   "dependencies": {
     "@hookform/resolvers": "^5.4.0",
     "axios": "^1.16.1",
